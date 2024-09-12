@@ -4,235 +4,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kadea online</title>
-    <link rel="stylesheet" href="dist/style/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="dist/style/style.css">
+    <title>kadea-online</title>
 </head>
 
 <body>
-    <header>
+
+    <header class="header">
         <div>
-            <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
+            <img src="dist/images/KDA-logo.png" alt="logo_de_Kadea_online">
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Accueil</a>
+        <nav class="header__nav">
+            <ul class="header__nav__list">
+                <li class="nav__list">
+                    <a href="index.html">Accueil</a>
                 </li>
-                <li>
-                    <a href="#">Nos cours</a>
+                <li class="nav__list">
+                    <a href="cours.html">Nos cours</a>
                 </li>
             </ul>
+            <div class="menu__humburger">
+                <img class="menu__humburger__image" src="dist/images/solid-menu.svg" alt="menu humburger">
+                <ul class="header__nav__list2">
+                    <li class="nav__list">
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="cours.html">Nos cours</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <!--Start Hero section -->
-        <section>
-            <!--  -->
-            <div>
-                <div>
-                    <h1>
-                        Apprenez à coder avec
+        <section class="hero-section">
+
+            <div class="hero-text">
+                <div class="hero-text__h1">
+                    <h1>Apprenez à coder avec
                         Kinshasa Digital Academy,
                         c'est gratuit !
                     </h1>
                 </div>
-                <div>
-                    <p>
-                        Trouvez le bon cours et lancez-vous !!!
+
+                <div class="hero-text__p">
+                    <p>Trouvez le bon cours et lancez-vous !!! <br>
                         Concentrez-vous sur ce qui est nécessaire pour acquérir
-                        une compétence spécifique et applicable.
-                        Vous serez mieux outillé pour construire une carrière.
+                        une compétence spécifique et applicable. <br>
+                        Vous serez mieux outillé pour construire une carrière
                     </p>
                 </div>
-                <div>
-                    <button>Lancez-vous</button>
+
+                <div class="hero-text__button">
+                    <button>
+                        lancez-vous
+                    </button>
                 </div>
             </div>
-            <!--  -->
-            <div>
-                <img src="dist/images/Coding-workshop-pana.png" alt="image de coding workshop">
+
+            <div class="hero-image">
+                <img src="dist/images/Coding-workshop-pana.png" alt="image-coding">
             </div>
-            <!--  -->
+
         </section>
-        <!--End Hero section -->
-        <!--Start Option section -->
-        <div>
-            <article>
+
+        <div class="option-section">
+            <article class="option-section__article option-section__text">
                 <div>
                     <h3>Construire une carrière</h3>
                 </div>
+
                 <div>
-                    <p>
-                        Nos offre sont complète,
+                    <p>Nos offre sont complète,
                         avec tout ce dont vous avez
                         besoin pour construire votre
                         carrière.
                     </p>
                 </div>
             </article>
-            <article>
+
+            <article class="option-section__article option-section__text">
                 <div>
                     <h3>Acquérir une compétence</h3>
                 </div>
+
                 <div>
-                    <p>
-                        Concentrez-vous sur ce qui est
+                    <p>Concentrez-vous sur ce qui est
                         nécessaire pour acquérir
                         une compétence spécifique
                         et applicable.
                     </p>
                 </div>
             </article>
-            <article>
+
+            <article class="option-section__article option-section__text">
                 <div>
                     <h3>Apprenez a coder</h3>
                 </div>
+
                 <div>
-                    <p>
-                        Trouvez le bon cours et
+                    <p>Trouvez le bon cours et
                         lancez-vous.
                         trouvez le bon cours et pratiquez.
                     </p>
                 </div>
             </article>
         </div>
-        <!--End Option section -->
-        <!--Start Commencez à coder section -->
-        <section>
-            <div>
-                <img src="dist/images/Code-editor.png" alt="code editor">
+
+        <section class="code-editor">
+            <div class="image-coding">
+                <img src="dist/images/Code-editor.png" alt="code-editor">
             </div>
-            <div>
-                <div>
-                    <h2>
-                        Commencez à coder en
-                        quelques secondes
-                    </h2>
+            <div class="code-editor__text">
+                <div class="code-editor__text__h3">
+                    <h3>Commencez à coder en quelques secondes</h3>
                 </div>
-                <div>
-                    <p>
-                        Allez-y, essayez. Grâce à notre environnement
+                <div class="code-editor__text__p">
+                    <p>Allez-y, essayez. Grâce à notre environnement
                         d'apprentissage pratique, vous écrirez du vrai code
                         dès votre première leçon.
                     </p>
+                    <div class="hero-text__button">
+                        <button>lancez-vous</button>
+                    </div>
                 </div>
-                <div>
-                    <button>
-                        Lancez-vous
-                    </button>
-                </div>
+
             </div>
         </section>
-        <!--End Commencez à coder section -->
-        <!--Start apprentissage section -->
-        <section>
-            <div>
-                <h2>
-                    Démarrez votre apprentissage
-                </h2>
+
+        <section class="learn-section">
+            <div class="learn-section__text__h2">
+                <h2>Démarrez votre apprentissage</h2>
             </div>
-            <div>
-                <article>
-                    <h3>
-                        HTML et HTML5 de base
-                    </h3>
+            <div class="learn-section__text">
+                <article class="learn-section__text__h3">
+                    <h3>HTML et HTML5 de base</h3>
                 </article>
-                <article>
-                    <h3>
-                        Les bases du CSS
-                    </h3>
+
+                <article class="learn-section__text__h3">
+                    <h3>Les bases du CSS</h3>
                 </article>
-                <article>
-                    <h3>
-                        conception visuelle appliquée
-                    </h3>
+
+                <article class="learn-section__text__h3">
+                    <h3>conception visuelle appliquée</h3>
                 </article>
             </div>
-            <div>
+            <div class="learn-section__lien">
                 <p>
-                    <a href="#">Voir plus de cours -></a>
+                    <a class="lien-btn" href="#">Voir plus de cours -></a>
                 </p>
             </div>
         </section>
-        <!--End apprentissage section -->
-        <!--Start Écrivez-nous section -->
-        <section>
-            <div>
-                <h2>
-                    Écrivez-nous !
-                </h2>
-            </div>
-            <div>
-                <form>
-                    <div>
-                        <div>
-                            <div>
-                                <label for="nom">Votre nom</label>
+
+        <div class="bgColor">
+            <section class="bg-color__form">
+                <div class="bgColor__form__h2">
+                    <h2>Écrivez-nous !</h2>
+                </div>
+                <div class="bgColor__contact">
+                    <form>
+                        <div class="bgColor__contact__form">
+                            <div class="bgColor__contact__form__name">
+                                <div class="bgColor__contact__form__name__label">
+                                    <label for="nom">Votre nom</label>
+                                </div>
+                                <div class="bgColor__contact__form__name__input">
+                                    <input type="text" name="nom" id="nom">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="nom" id="nom">
+
+                            <div class="bgColor__contact__form__email">
+                                <div class="bgColor__contact__form__email__label">
+                                    <label for="mail">Entrez Votre </label>
+                                </div>
+                                <div class="bgColor__contact__form__email__input">
+                                    <input type="email" name="mail" id="mail">
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <div>
-                                <label for="email">Votre email</label>
+
+                        <div class="bgColor__contact__form__textarea">
+                            <div class="bgColor__contact__form__textarea__label">
+                                <label for="message">Votre message</label>
                             </div>
-                            <div>
-                                <input type="email" name="email" id="email">
+                            <div class="bgColor__contact__form__textarea__input">
+                                <textarea name="message" id="message"></textarea>
                             </div>
                         </div>
-                    </div>
-                    <div>
-                        <div>
-                            <label for="message">Votre message</label>
+
+                        <div class="bg-color-btn">
+                            <button>Envoyez votre message</button>
                         </div>
-                        <div>
-                            <textarea name="message" id="message"></textarea>
-                        </div>
-                    </div>
-                    <div>
-                        <button>Envoyez votre message</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <!--End Écrivez-nous section -->
-    </main>
-    <footer>
-        <div>
-            <img src="/dist/images/KDA-logo.png" alt="logo de Kadea online">
+                    </form>
+                </div>
+            </section>
         </div>
-        <div>
-            <p>
-                Texaf Digital Campus <br>
-                Concession COTEX N° 63 Avenue Colonel Mondjiba <br>
+
+    </main>
+    <footer class="section-footer">
+        <div class="section-footer__image">
+            <img src="dist/images/KDA-logo.png" alt="logo-kadea-kadea-online">
+        </div>
+        <div class="section-footer__p">
+            <p>Texaf Digital Campus <br>
+                Concession COTEX <br>
+                N° 63 Avenue Colonel Mondjiba
                 Commune de Ngaliema - Kinshasa
             </p>
         </div>
-        <div>
+
+        <div class="section-footer__lienk">
             <div>
                 <a href="#">
-                    <img src="dist/images/facebook.png" alt="logo facebook">
+                    <img src="dist/images/facebook.png" alt="facebook">
                 </a>
             </div>
             <div>
                 <a href="#">
-                    <img src="dist/images/linkdin.png" alt="logo linkdin">
+                    <img src="dist/images/linkdin.png" alt="lindkin">
                 </a>
             </div>
             <div>
                 <a href="#">
-                    <img src="dist/images/x.png" alt="logo x">
+                    <img src="dist/images/x.png" alt="twitter">
                 </a>
             </div>
             <div>
                 <a href="#">
-                    <img src="dist/images/instagram.png" alt="logo instagram">
+                    <img src="/dist/images/instagram.png" alt="instagram">
                 </a>
             </div>
+
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
